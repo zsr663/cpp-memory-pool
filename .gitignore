@@ -1,0 +1,14 @@
+# 复习文档（不上传 GitHub）
+复习文档/
+
+# 编译产物
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.o
+*.out
+.vs/
+x64/
+Debug/
+Release/
