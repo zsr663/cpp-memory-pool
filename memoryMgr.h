@@ -1,5 +1,6 @@
 #pragma once
 #include <map>
+#include <cstddef>
 
 const unsigned MAX_UNIT_SIZE = 1024;
 
