@@ -84,11 +84,11 @@ MemoryMgr& MemoryMgr::getInstance()
 
 //MemoryMgr构造函数，初始化5个内存池，装入map
 MemoryMgr::MemoryMgr()
-    :memoryAlloc64(64, 10),
-    memoryAlloc128(128, 10),
-    memoryAlloc256(256, 10),
-    memoryAlloc512(512, 10),
-    memoryAlloc1024(1024, 10)
+    :memoryAlloc64(10, 64),
+    memoryAlloc128(10, 128),
+    memoryAlloc256(10, 256),
+    memoryAlloc512(10, 512),
+    memoryAlloc1024(10, 1024)
 {
     memoryAlloc64.initMemoryAlloc();
     memoryAlloc128.initMemoryAlloc();
